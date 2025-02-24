@@ -1,0 +1,68 @@
+.mainTitle{
+    text-align: center;
+    font-size: 80px;
+}
+
+.introduction{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.introduction hgroup{
+    text-align: center;
+}
+
+#NextToAtributtes{
+    width: 40px;
+}
+#personalPhoto{
+    width: 300px;
+    border-radius: 150px;
+    background-color: #8338ec;
+    border: 2px solid white;
+}
+.blink{
+    animation-name: blinking;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+.slow{
+    animation-duration: 2s;
+}
+.quotesNButton{
+    margin-top: 60px;
+}
+
+.portifolioNAbout{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.portifolioNAbout button{
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 20px 40px;
+}
+#portifolioButton{
+    background-color: #8338ec;
+}
+@keyframes blinking {
+    50%{
+        opacity: 0;
+    }
+}
+.quotesNButton p{
+    font-size: 24px;
+    text-align: justify;
+    margin-top: 50px;
+}
+
+.quotesNButton #author{
+    display: block;
+    float: right;
+    margin-top: 20px;
+}
