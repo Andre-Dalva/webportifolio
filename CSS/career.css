@@ -1,0 +1,59 @@
+* :not(.navigation){
+    box-sizing: border-box;
+}
+a{
+    color: white;
+}
+h2{
+   text-align: center;
+}
+.skills h3{
+    margin-top: 0px;
+}
+p{
+    margin-bottom: 0px;
+}
+.bigQuestions{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 1.25em;
+}
+.blink{
+    animation-name: blinking;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+.skills div{
+    text-align: justify;
+    padding: 15px;
+    padding-left: 5px;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+    border-radius: 10px;
+    margin: 1%;
+    width: 48%;
+    position: relative;
+}
+.leftSkills{
+    float: left;
+    clear: left;
+}
+.rightSkills{
+    float: right;
+    clear: right;
+}
+
+@keyframes blinking{
+    50%{
+        opacity: 0;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .bigQuestions{
+        justify-content: space-evenly;
+        column-gap: 15px;
+    }
+}

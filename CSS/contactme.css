@@ -1,0 +1,27 @@
+
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.social{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.gmail, .instagram{
+    text-align: center;
+    width: 400px;
+}
+.gmail img{
+    width: 80%;
+}
+.social img:hover{
+    opacity: 0.8;
+}
+.instagram img{
+    width: 90%;
+}

@@ -1,0 +1,111 @@
+
+/* Projects Heading*/
+.skillsTitleLogo{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    margin-bottom: 15px;
+}
+.skillsTitle{
+    text-align: center;
+    font-size: 2em;
+}
+.skillsTitle a{
+    text-decoration: none;
+    color: white;
+}
+.skillsTitle a:hover{
+    opacity: 0.8;
+}
+.Logo{
+    width: 120px;
+    margin-left: 10px;
+}
+#javaTitle{
+    font-size: 2.1em;
+}
+#JAVA-LOGO{
+    width: auto;
+    height: 100px;
+    margin-left: 0px;
+}
+#DATABASE-LOGO1{
+    align-self: center;
+    height: 95px;
+    width: auto;
+}
+
+/*Projects boxes*/
+.skills{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 70px;
+}
+.myProjects{
+    border: 3px solid #8338ec;
+    height: 300px;
+    width: 250px;
+    margin: 15px;
+    border-radius: 15px;
+}
+.myProjects a{
+    color: white;
+    text-decoration: none;
+}
+.projectTitle{
+    margin: 10px 20px;
+}
+.projectDescription{
+    font-size:0.85em;
+    padding: 0px 15px;
+}
+/*Boxes coloring*/
+.htmlProjects{
+    border-top-color: #cb6139;
+    border-left-color: #cb6139;
+    border-right-color: #2b9bcb;
+    border-bottom-color: #2b9bcb;
+}
+
+
+.jsProjects{
+    border-top-color: #2b9bcb;
+    border-left-color: #cb6139;
+    border-right-color: #fed93d;
+    border-bottom-color: #fed93d;
+}
+.javaProjects{
+    border-top-color: #da370a;
+    border-left-color: #d83609;
+    border-right-color: #6184f4;
+    border-bottom-color: #6184f4;
+}
+
+.databaseProjects{
+    border-color:#007ac3;
+}
+
+/*Html Projects*/
+
+#HtmlCSS01 img{
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    margin-bottom: 0px;
+}
+
+#HtmlCSS01 p{
+    margin: 5px;
+}
+
+#HTML01Description{
+     margin-top: 30px;
+}
+
+/*Iteractive CSS*/
+@media screen and (max-width: 650px){
+    .skills{
+        justify-content: space-around;
+    }
+}
