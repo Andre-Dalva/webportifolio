@@ -7,12 +7,9 @@ a{
 h2{
    text-align: center;
 }
-p:not(footer p){
-    text-align: justify;
-}
 .blink{
     animation-name: blinking;
-    animation-duration: 1s;
+    animation-duration: 1.5s;
     animation-iteration-count: infinite;
 }
 .onRight{

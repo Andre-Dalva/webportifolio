@@ -32,20 +32,21 @@
     animation-duration: 2s;
 }
 .quotesNButton{
-    margin-top: 60px;
+    padding: 0px;
+    padding-top: 60px;
 }
 
 .portifolioNAbout{
-    margin-top: 50px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 0px 15px;
 }
 .portifolioNAbout button{
     font-size: 25px;
     font-weight: bold;
     font-style: italic;
-    padding: 20px 40px;
+    padding: 18px 40px;
 }
 #portifolioButton{
     background-color: #8338ec;
@@ -57,12 +58,12 @@
 }
 .quotesNButton p{
     font-size: 24px;
-    text-align: justify;
-    margin-top: 50px;
+    padding: 0px 15px;
+    padding-bottom: 0px;
+    padding-top: 25px;
 }
 
 .quotesNButton #author{
     display: block;
-    float: right;
-    margin-top: 20px;
+    text-align: right;
 }
