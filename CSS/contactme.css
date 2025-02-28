@@ -9,19 +9,22 @@ a:hover{
 
 .social{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
-.gmail, .instagram{
+.social img:hover{
+    opacity: 0.8;
+}
+.gmail, .instagram, .facebook{
     text-align: center;
     width: 400px;
 }
 .gmail img{
     width: 80%;
 }
-.social img:hover{
-    opacity: 0.8;
-}
 .instagram img{
     width: 90%;
+}
+.facebook img{
+    width: 80%;
 }
