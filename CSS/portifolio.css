@@ -54,6 +54,15 @@
     color: white;
     text-decoration: none;
 }
+.myProjects img{
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    margin-bottom: 0px;
+}
+.myProjects p{
+    margin: 5px;
+    text-align: left;
+}
 .projectTitle{
     text-align: center;
 }
@@ -87,21 +96,18 @@
     border-color:#007ac3;
 }
 
-/*Html Projects*/
-
-.myProjects img{
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
-    margin-bottom: 0px;
-}
-
-.myProjects p{
-    margin: 5px;
-    text-align: left;
+/* Html Projects*/
+#HtmlCSS01{
+    border-color: #8338ec;
 }
 
 #HTML01Description{
      margin-top: 30px;
+}
+
+/*Javascript Projects*/
+#HtmlJS01{
+    border-color:#0077b6;
 }
 
 /*Iteractive CSS*/
