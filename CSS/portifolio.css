@@ -55,7 +55,7 @@
     text-decoration: none;
 }
 .projectTitle{
-    margin: 10px 20px;
+    text-align: center;
 }
 .projectDescription{
     font-size:0.85em;
@@ -89,14 +89,15 @@
 
 /*Html Projects*/
 
-#HtmlCSS01 img{
+.myProjects img{
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
     margin-bottom: 0px;
 }
 
-#HtmlCSS01 p{
+.myProjects p{
     margin: 5px;
+    text-align: left;
 }
 
 #HTML01Description{
