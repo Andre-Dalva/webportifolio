@@ -109,6 +109,15 @@
 #HtmlJS01{
     border-color:#0077b6;
 }
+#HtmlJS02{
+    border-color:#774936;
+}
+#HtmlJS02 .projectTitle{
+    margin: 20px auto 8px auto;
+}
+#HtmlJS02Description{
+    margin-top: 0px;
+}
 
 /*Iteractive CSS*/
 @media screen and (max-width: 650px){
