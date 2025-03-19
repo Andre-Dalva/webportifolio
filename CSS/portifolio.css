@@ -3,6 +3,9 @@ a{
     color: white;
     text-decoration: none;
 }
+a:hover{
+    opacity: 0.8;
+}
 .skillsTitleLogo{
     display: flex;
     justify-content: center;
@@ -12,9 +15,6 @@ a{
 .skillsTitle{
     text-align: center;
     font-size: 2em;
-}
-a:hover{
-    opacity: 0.8;
 }
 .Logo{
     width: 120px;
@@ -82,7 +82,6 @@ a:hover{
 #HtmlCSS01{
     border-color: #8338ec;
 }
-
 #HTML01Description{
      margin-top: 30px;
 }
@@ -94,21 +93,18 @@ a:hover{
 #HtmlJS02{
     border-color:#774936;
 }
+#HtmlJS02Description, #HtmlJS03Description{
+    margin-top: 0px;
+}
 #HtmlJS03{
     border-color:#8338ec;
 }
 #HtmlJS02 .projectTitle, #HtmlJS03 .projectTitle{
     margin-bottom: 8px;
 }
-#HtmlJS02Description{
-    margin-top: 0px;
-}
-#HtmlJS03Description{
-    margin-top: 0px;
-}
 
 /*Iteractive CSS*/
-@media screen and (max-width: 650px){
+@media screen and (max-width: 918px){
     .skills{
         justify-content: space-around;
     }
