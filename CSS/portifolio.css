@@ -1,10 +1,8 @@
-
 /* Projects Heading*/
 .skillsTitleLogo{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    align-content: flex-start;
     margin-bottom: 15px;
 }
 .skillsTitle{
@@ -22,6 +20,8 @@
     width: 120px;
     margin-left: 10px;
 }
+
+/* Specific logo and title*/
 #javaTitle{
     font-size: 2.1em;
 }
@@ -55,8 +55,8 @@
     text-decoration: none;
 }
 .myProjects img{
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
+    border-top-left-radius: 11px;
+    border-top-right-radius: 11px;
     margin-bottom: 0px;
 }
 .myProjects p{
@@ -72,24 +72,10 @@
 }
 /*Boxes coloring*/
 .htmlProjects{
-    border-top-color: #cb6139;
-    border-left-color: #cb6139;
-    border-right-color: #2b9bcb;
-    border-bottom-color: #2b9bcb;
-}
-
-
-.jsProjects{
-    border-top-color: #2b9bcb;
-    border-left-color: #cb6139;
-    border-right-color: #fed93d;
-    border-bottom-color: #fed93d;
+    border-color: #2b9bcb;
 }
 .javaProjects{
-    border-top-color: #da370a;
-    border-left-color: #d83609;
-    border-right-color: #6184f4;
-    border-bottom-color: #6184f4;
+    border-color: #da370a;
 }
 
 .databaseProjects{
@@ -112,10 +98,16 @@
 #HtmlJS02{
     border-color:#774936;
 }
-#HtmlJS02 .projectTitle{
-    margin: 20px auto 8px auto;
+#HtmlJS03{
+    border-color:#8338ec;
+}
+#HtmlJS02 .projectTitle, #HtmlJS03 .projectTitle{
+    margin-bottom: 8px;
 }
 #HtmlJS02Description{
+    margin-top: 0px;
+}
+#HtmlJS03Description{
     margin-top: 0px;
 }
 
