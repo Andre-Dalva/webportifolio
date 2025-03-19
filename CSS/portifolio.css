@@ -1,4 +1,8 @@
 /* Projects Heading*/
+a{
+    color: white;
+    text-decoration: none;
+}
 .skillsTitleLogo{
     display: flex;
     justify-content: center;
@@ -9,11 +13,7 @@
     text-align: center;
     font-size: 2em;
 }
-.skillsTitle a{
-    text-decoration: none;
-    color: white;
-}
-.skillsTitle a:hover{
+a:hover{
     opacity: 0.8;
 }
 .Logo{
@@ -50,10 +50,6 @@
     margin: 15px;
     border-radius: 15px;
 }
-.myProjects a{
-    color: white;
-    text-decoration: none;
-}
 .myProjects img{
     border-top-left-radius: 11px;
     border-top-right-radius: 11px;
@@ -68,7 +64,7 @@
 }
 .projectDescription{
     font-size:0.85em;
-    padding: 0px 15px;
+    padding: 0px 10px;
 }
 /*Boxes coloring*/
 .htmlProjects{
