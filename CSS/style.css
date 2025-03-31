@@ -73,6 +73,7 @@ body{
 }
 .navigation a:hover{
     color: white;
+    text-decoration: none;
 }
 .siteButton{
     font-size: 0.8em;

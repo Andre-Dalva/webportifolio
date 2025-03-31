@@ -12,19 +12,22 @@ a:hover{
     justify-content: space-around;
     flex-wrap: wrap;
 }
+.social div{
+    width: 400px;
+    text-align: center;
+}
 .social img:hover{
     opacity: 0.8;
-}
-.gmail, .instagram, .facebook{
-    text-align: center;
-    width: 400px;
 }
 .gmail img{
     width: 80%;
 }
 .instagram img{
-    width: 90%;
+    width: 55%;
 }
 .facebook img{
     width: 70%;
+}
+.linkedin img{
+    width: 75%;
 }
