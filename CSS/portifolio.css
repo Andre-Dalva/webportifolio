@@ -102,6 +102,12 @@ a:hover{
 #HtmlJS02 .projectTitle, #HtmlJS03 .projectTitle{
     margin-bottom: 8px;
 }
+#HtmlJS04{
+    border-color: #061130;
+}
+#HtmlJS04 .projectTitle{
+    margin-bottom: 10px;
+}
 
 /*Iteractive CSS*/
 @media screen and (max-width: 918px){
