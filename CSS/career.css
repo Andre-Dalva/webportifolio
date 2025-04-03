@@ -45,3 +45,10 @@ h2{
         column-gap: 15px;
     }
 }
+@media screen and (max-width:500px) {
+
+    .skill{
+        width: 95%;
+        margin: 0 auto 50px;
+    }
+}
