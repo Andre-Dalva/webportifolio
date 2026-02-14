@@ -66,18 +66,6 @@ a:hover{
     font-size:0.85em;
     padding: 0px 10px;
 }
-/*Boxes coloring*/
-.htmlProjects{
-    border-color: #2b9bcb;
-}
-.javaProjects{
-    border-color: #da370a;
-}
-
-.databaseProjects{
-    border-color:#007ac3;
-}
-
 /* Html Projects*/
 #HtmlCSS01{
     border-color: #8338ec;
@@ -87,6 +75,12 @@ a:hover{
 }
 #HtmlCSS02{
     border-color: #061130;
+}
+#HtmlCSSJS03{
+    border-color: #d4a391;
+}
+#HtmlCSSJS04{
+    border-color: yellow;
 }
 
 /*Javascript Projects*/
